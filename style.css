@@ -1,0 +1,70 @@
+body{
+    background-image: url("nature.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    opacity: 50;
+}
+.heading1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5em;
+    color:white;
+}
+
+.btn{
+    align-items: center;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline;
+}
+.item{
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.container {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+.img-btn{
+    height: 50px;
+    width: 50px;
+}
+p{
+    text-align: center;
+
+    color: whitesmoke;
+}
+.div1{
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0.3em;
+}
+h3{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0.3em;
+}
