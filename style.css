@@ -1,16 +1,24 @@
 body{
-    background-image: url("nature.jpg");
+    background-image:url("nature.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
     background-size: cover;
-    opacity: 50;
 }
 .heading1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.5em;
     color:white;
+    padding: 5px;
+    border-radius: 3px;
+    height: auto;
 }
+.heading1:hover a{
+    padding: 5px;
+    border-radius: 3px;
+    color: black;
+}
+
 
 .btn{
     align-items: center;
@@ -79,5 +87,11 @@ a:visited{
 }
 a:hover{
     text-decoration: none;
-    color: pink;
+    color: black;
+    background-color: whitesmoke;
+}
+ul li a{
+    padding: 5px;
+    background-color: none;
+    border-radius: 2px;
 }
